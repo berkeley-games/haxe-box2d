@@ -1,0 +1,30 @@
+-main ApplicationMain 
+-cp D:/Ten 90 Studios/SDK/Haxe/haxe/lib/box2d/1,2,3
+-D box2d=1.2.3
+--macro openfl._internal.utils.ExtraParams.include()
+-cp D:/Ten 90 Studios/SDK/Haxe/haxe/lib/openfl/4,7,3
+-D openfl=4.7.3
+--macro lime.Lib.extraParams()
+-cp D:/Ten 90 Studios/SDK/Haxe/haxe/lib/lime/3,7,2
+-D lime=3.7.2
+-cp D:/Ten 90 Studios/SDK/Haxe/haxe/lib/actuate/1,8,7
+-D actuate=1.8.7
+-cp ../src
+-cp D:\Ten 90 Studios\SDK\Haxe\haxe\lib\openfl/4,7,3/externs/core/flash
+-cp D:\Ten 90 Studios\SDK\Haxe\haxe\lib\openfl/4,7,3/externs/core/openfl
+-D native-trace
+-D tools=3.7.2
+-D flash-use-stage
+-D no-compilation
+-D openfl-flash
+-D debug
+-D fdb
+-D verbose=1
+-D web
+-resource ../bin/flash/debug/obj/manifest@__ASSET_MANIFEST__
+-swf-lib ../bin/flash/debug/obj/assets.swf
+-swf-version 11.2
+-swf ../bin/flash/debug/bin/HaxeSample.swf
+-swf-header 1280:720:60:333333
+-cp ../bin/flash/debug/haxe
+-D final
